@@ -81,3 +81,4 @@ void Fib(int c, int d, int x) //функция вывод числа на экр
 	cout << d << '\t';
 	Fib(c, x, d + x);
 }
+
