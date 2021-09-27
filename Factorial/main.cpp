@@ -15,9 +15,10 @@ using namespace std;
 //	return Foo(a);
 //}
 
-int Factorial(int n);
+long long int Factorial(int n);
 double Power(int b, int a);
 void Fib(int c, int d = 0, int x = 1);
+
 
 void main()
 {
@@ -43,7 +44,7 @@ void main()
 
 }
 
-int Factorial(int n)
+long long int Factorial(int n)
 {
 #ifdef FACTORIAL
 	if (n == 0)
